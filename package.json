@@ -1,0 +1,46 @@
+{
+  "name": "redux-mock-provider",
+  "version": "0.0.0",
+  "description": "A helper utility to create a mock redux provider to wrap components for the purposes of testing",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test",
+    "prepublish": "rimraf lib && babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanCCollins/redux-mock-provider.git"
+  },
+  "keywords": [
+    "Redux",
+    "store",
+    "mocking",
+    "testing",
+    "utilities"
+  ],
+  "author": "Ryan C. Collins <rccproductions@mac.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanCCollins/redux-mock-provider/issues"
+  },
+  "homepage": "https://github.com/RyanCCollins/redux-mock-provider#readme",
+  "dependencies": {
+    "babel-cli": "^6.0.1",
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^7.1.0",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^3.10.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "react": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-mock-store": "^1.2.1",
+    "redux-thunk": "^2.1.0",
+    "rimraf": "^2.5.4"
+  }
+}
