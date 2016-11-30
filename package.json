@@ -1,7 +1,7 @@
 {
   "name": "redux-mock-provider",
   "version": "0.0.0",
-  "description": "A helper utility to create a mock redux provider to wrap components for the purposes of testing",
+  "description": "A helper utility that makes available a mock redux store and Provider for the purposes of testing connected components.",
   "main": "lib/index.js",
   "scripts": {
     "test": "test",
