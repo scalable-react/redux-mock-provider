@@ -1,6 +1,6 @@
 {
   "name": "redux-mock-provider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A helper utility that makes available a mock redux store and Provider for the purposes of testing connected components.",
   "main": "lib/index.js",
   "scripts": {
