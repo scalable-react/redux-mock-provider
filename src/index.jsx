@@ -22,7 +22,7 @@ const MockProvider = ({ store, children }) => (
 
 MockProvider.propTypes = {
   children: React.PropTypes.node.isRequired,
-  store: React.PropTypes.Object.isRequired,
+  store: React.PropTypes.object.isRequired, // eslint-disable-line
 };
 
 export default MockProvider;
