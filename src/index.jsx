@@ -2,6 +2,7 @@ import React from 'react';
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
+import PropTypes from 'prop-types';
 
 const defaultMiddleWares = [thunk];
 
@@ -21,8 +22,8 @@ const MockProvider = ({ store, children }) => (
 );
 
 MockProvider.propTypes = {
-  children: React.PropTypes.node.isRequired,
-  store: React.PropTypes.object.isRequired, // eslint-disable-line
+  children: PropTypes.node.isRequired,
+  store: PropTypes.object.isRequired, // eslint-disable-line
 };
 
 export default MockProvider;
