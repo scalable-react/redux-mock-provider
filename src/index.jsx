@@ -9,10 +9,7 @@ export const getMockStore = ({
   key = 'initialState',
   state,
   middlewares = defaultMiddleWares,
-}) => {
-  const mockStore = configureMockStore(middlewares);
-  return mockStore({ [`${key}`]: state });
-};
+}) => configureMockStore(middlewares)({ [key]: state });
 
 const MockProvider = ({ store, children }) => (
   <Provider store={store}>
